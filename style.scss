@@ -1,0 +1,115 @@
+.font-weight {
+  font-weight: 600;
+}
+body {
+  text-align: justify;
+}
+.header {
+  .row {
+    padding-top: 228px;
+    padding-left: 148px;
+  }
+  h1 {
+    font-size: 44px;
+    font-weight: bold;
+    padding-right: 106px;
+  }
+  p {
+    font-size: 16px;
+    padding-right: 115px;
+    text-align: justify;
+  }
+}
+
+.jumbotron {
+  height: 396px;
+  padding: 2rem 1rem;
+  background-color: #edf7fa;
+
+  .row {
+    padding-left: 148px;
+    padding-right: 220px;
+  }
+
+  .sub-title {
+    color: green;
+    font-size: 18px;
+    @extend .font-weight;
+  }
+
+  .education1 p,
+  .education2 p {
+    margin: 0;
+    padding-bottom: 6px;
+  }
+
+  .text-education1,
+  .text-education2 {
+    font-size: 12px;
+  }
+
+  .text-education1 li,
+  .text-education2 li {
+    color: #52575c !important;
+  }
+
+  .call-number img,
+  .email img,
+  .adress img {
+    float: left;
+  }
+
+  .title1,
+  .title2 {
+    @extend .font-weight;
+  }
+}
+
+.experience {
+  .row {
+    padding-left: 148px;
+
+    h2 {
+      font-size: 18px;
+      @extend .font-weight;
+    }
+
+    .title-project {
+      margin: 0 !important  ;
+    }
+
+    .title-project h3 {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .description {
+      color: #8695a4;
+      font-size: 20px;
+    }
+
+    .description p {
+      line-height: 25px;
+    }
+
+    .years {
+      float: left;
+    }
+
+    .text {
+      margin: 0;
+    }
+  }
+}
+
+footer {
+  i {
+    font-size: 30px;
+    padding-right: 35px;
+    padding-left: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}

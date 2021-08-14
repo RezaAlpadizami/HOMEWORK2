@@ -1,0 +1,108 @@
+.font-weight, .jumbotron .sub-title, .jumbotron .title1,
+.jumbotron .title2, .experience .row h2 {
+  font-weight: 600;
+}
+
+body {
+  text-align: justify;
+}
+
+.header .row {
+  padding-top: 228px;
+  padding-left: 148px;
+}
+
+.header h1 {
+  font-size: 44px;
+  font-weight: bold;
+  padding-right: 106px;
+}
+
+.header p {
+  font-size: 16px;
+  padding-right: 115px;
+  text-align: justify;
+}
+
+.jumbotron {
+  height: 396px;
+  padding: 2rem 1rem;
+  background-color: #edf7fa;
+}
+
+.jumbotron .row {
+  padding-left: 148px;
+  padding-right: 220px;
+}
+
+.jumbotron .sub-title {
+  color: green;
+  font-size: 18px;
+}
+
+.jumbotron .education1 p,
+.jumbotron .education2 p {
+  margin: 0;
+  padding-bottom: 6px;
+}
+
+.jumbotron .text-education1,
+.jumbotron .text-education2 {
+  font-size: 12px;
+}
+
+.jumbotron .text-education1 li,
+.jumbotron .text-education2 li {
+  color: #52575c !important;
+}
+
+.jumbotron .call-number img,
+.jumbotron .email img,
+.jumbotron .adress img {
+  float: left;
+}
+
+.experience .row {
+  padding-left: 148px;
+}
+
+.experience .row h2 {
+  font-size: 18px;
+}
+
+.experience .row .title-project {
+  margin: 0 !important;
+}
+
+.experience .row .title-project h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.experience .row .description {
+  color: #8695a4;
+  font-size: 20px;
+}
+
+.experience .row .description p {
+  line-height: 25px;
+}
+
+.experience .row .years {
+  float: left;
+}
+
+.experience .row .text {
+  margin: 0;
+}
+
+footer i {
+  font-size: 30px;
+  padding-right: 35px;
+  padding-left: 20px;
+}
+
+footer p {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
