@@ -113,3 +113,16 @@ footer {
     font-size: 14px;
   }
 }
+
+@media all and (max-width: 982px) {
+  .jumbotron {
+    height: 500px;
+  }
+}
+
+@media all and (max-width: 766px) {
+  .jumbotron {
+    height: 700px;
+    word-spacing: normal;
+  }
+}
